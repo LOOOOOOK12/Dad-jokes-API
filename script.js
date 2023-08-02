@@ -16,7 +16,7 @@ const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
 async function getJoke(){
 
     try {
-        jokeElement.innerText = "Creating Joke...";
+        jokeElement.innerText = "Cooking a joke...";
 
         generateBTN.disabled = true;
         generateBTN.innerText = "Loading...";
