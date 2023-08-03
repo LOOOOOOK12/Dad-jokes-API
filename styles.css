@@ -11,25 +11,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     height: 100vh;
 }
 
 #container{
     background: #ff3a3a;
-    padding: 3rem;
+    height: 15rem;
+    width: 30rem;
+    padding: 1.5rem;
     border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s ease;
 }
 
-#Labels, h1, p{
-    margin: 20px;
+#Labels p, h1{
+    margin: 1rem;
 }
 
-#joke{
-    padding: 1rem;
-}
-
-#Labels, #buttons{
+#buttons{
     margin: 1rem;
 }
 
