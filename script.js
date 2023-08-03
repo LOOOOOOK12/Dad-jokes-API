@@ -1,5 +1,6 @@
 const generateBTN = document.getElementById("generate-BTN");
 const jokeElement = document.getElementById("joke");
+const container = document.getElementById("container");
 
 const apiKey = "oXtRZzfEoVj+bviyUnIVmg==ob54wDnATcZ9Au3Z";
 
@@ -40,5 +41,4 @@ async function getJoke(){
     
 }
 
-
-generateBTN.addEventListener("click",getJoke)
+generateBTN.addEventListener("click",getJoke);
