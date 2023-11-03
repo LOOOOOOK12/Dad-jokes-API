@@ -2,7 +2,11 @@ const generateBTN = document.getElementById("generate-BTN");
 const jokeElement = document.getElementById("joke");
 const container = document.getElementById("container");
 
+//api Key
 const apiKey = "oXtRZzfEoVj+bviyUnIVmg==ob54wDnATcZ9Au3Z";
+
+//api URL
+const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
 
 const options = {
     method: "GET",
@@ -11,7 +15,7 @@ const options = {
     },
 };
 
-const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
+
 
 
 async function getJoke(){
